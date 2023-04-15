@@ -1,0 +1,55 @@
+body{
+  background-color: blueviolet;
+  overflow: hidden; 
+}
+
+#container{
+ /* display: grid;*/
+  text-align: center;
+  margin-top: 310px;
+  transition: all 900ms;
+  transform: translateY(0px);
+}
+
+@media (max-width: 400px) {
+}
+
+.transitionsN{
+  transition: all 1s;
+  transform: translateY(-780px) !important;
+}
+
+.transitionsE{
+  transition: all 1s;
+  transform: translateX(730px) !important;
+}
+
+.transitionsS{
+  transition: all 1s;
+  transform: translateY(780px) !important;
+}
+
+.transitionsO{
+  transition: all 1s;
+  transform: translateX(-730px) !important;
+}
+
+#btn{
+  background-color: #e91e1e; /* Color de fondo */
+	padding: 10px 20px; /* Relleno del boton */
+	position: -webkit-sticky;
+  bottom:5px;
+  right:10px;
+  margin-left: 47vw;
+  width: 70px;
+  margin-top: 80px;
+  display: block; /*este con los siguientes dos ayudan a centrar el botón*/
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#menu{
+  display: block; /*este con los siguientes dos ayudan a centrar el botón*/
+  margin-right: auto;
+  margin-left: auto;
+}
